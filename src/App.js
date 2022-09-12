@@ -1,23 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import { TableData } from './Components';
+// import Table from './Components/Table';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <TableData></TableData>
+      <p>Rates are based from 1 USD</p>
+      <p>This application uses API from <a>https://currencyfreaks.com/</a></p>
     </div>
   );
 }
